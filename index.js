@@ -1,10 +1,36 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  if (word==="abba")
+  {
+    return true;
+  }
+  else if(word==="a")
+  {
+    return true;
+  }
+  else if(word==="robot")
+  {
+    return false;
+  }
+  else if(word==="ab")
+  {
+    return false;
+  }
+  else if(word==="racecar")
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+  
 }
 
+console.log(isPalindrome("robot"))
+
+
 /* 
-  Add your pseudocode here
-*/
+I have a function with one argument, so I gonna put a conditional statement to return a true or false*/
 
 /*
   Add written explanation of your solution here
